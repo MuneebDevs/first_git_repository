@@ -16,25 +16,25 @@
 
 # puts (Time.now - before_time)
 
-writer = Writer.create(name:'ali')
-wid = writer.id
-
-before_time = Time.now
-
-100.times do |i| 
-  Book.create(name:"Book#{i+1}",price:(i+1)*100,writer_id:wid)
-end
-
-puts (Time.now - before_time)
-
-
 # writer = Writer.create(name:'ali')
-# book = Book.new
-# book.writer_id = writer.id
+# wid = writer.id
+
 # before_time = Time.now
+
 # 100.times do |i| 
-#   book.name = "Book#{i+1}"
-#   book.price = (i+1)*100;
-#   book.save
+#   Book.create(name:"Book#{i+1}",price:(i+1)*100,writer_id:wid)
 # end
+
 # puts (Time.now - before_time)
+
+
+writer = Writer.create(name:'ali')
+book = Book.new
+book.writer_id = writer.id
+before_time = Time.now
+100.times do |i| 
+  book.name = "Book#{i+1}"
+  book.price = (i+1)*100;
+  book.save
+end
+puts (Time.now - before_time)
