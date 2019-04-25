@@ -6,7 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
-# just add a new comment from cloud more change
+# just add a new comment from cloud again more change
 writer = Writer.create(name:'ali')
 
 before_time = Time.now
