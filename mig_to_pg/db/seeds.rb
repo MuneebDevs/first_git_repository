@@ -7,6 +7,9 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # just add a new comment from cloud again more change
+
+
+
 writer = Writer.create(name:'ali')
 
 before_time = Time.now
