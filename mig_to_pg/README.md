@@ -5,15 +5,15 @@ application up and running.
 
 Things you may want to cover:
 
-* Ruby version
+* Ruby version		ruby 2.6.0p0 (2018-12-25 revision 66547) [x86_64-linux]
 
 * System dependencies
 
 * Configuration
 
-* Database creation
+* Database creation			postgresql 
 
-* Database initialization
+* Database initialization		none
 
 * How to run the test suite
 
