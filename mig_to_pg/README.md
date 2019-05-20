@@ -15,10 +15,12 @@ Things you may want to cover:
 
 * Database initialization		none
 
-* How to run the test suite
+* How to run the test suite		ask qa
 
 * Services (job queues, cache servers, search engines, etc.)
 
-* Deployment instructions
+* Deployment instructions		
 
 * ...
+
+* im on muneeb branch
